@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>kn0njac</title>
+<title>Test | kn0njac</title>
 <link rel="shortcut icon" href="https://k0njacccc.github.io/favicon.ico?v=1557027066849">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://k0njacccc.github.io/styles/main.css">
@@ -68,33 +68,55 @@
   </div>
 </div>
 
-    
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://k0njacccc.github.io/post/test">
-        <h2 class="post-title">Test</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2019-05-05 ·
-        </time>
-        
-      </div>
       
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-</div>
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Test
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2019-05-05 ·
+              </time>
+              
+            </div>
+            
+            <div class="post-content">
+              <p>Test</p>
 
+            </div>
+          </article>
+        </div>
     
-        <div class="pagination-container">
-  
-  
-</div>
+        
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'db8315882c2c86c96fc3',
+    clientSecret: '23a87a5c417a81d07b73fea318ae264b28cfdd66',
+    repo: 'k0njacccc.github.io',
+    owner: 'k0njacccc',
+    admin: ['k0njacccc'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
     
         <div class="site-footer">
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
